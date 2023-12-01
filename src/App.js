@@ -7,12 +7,12 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import InsultCard from "./components/InsultCard";
+import PoetryCard from "./components/PoetryCard";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Button />}>
-      <Route path="insultcard" element={<InsultCard />} />
+      <Route path="poetrycard" element={<PoetryCard />} />
     </Route>
   )
 );

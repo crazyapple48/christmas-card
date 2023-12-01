@@ -6,7 +6,7 @@ function Button() {
     <>
       <header>
         <button>
-          <Link to={"/insultcard"}>Button</Link>
+          <Link to={"poetrycard"}>Button</Link>
         </button>
       </header>
       <Outlet />
