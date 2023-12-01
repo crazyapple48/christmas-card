@@ -1,5 +1,5 @@
-import rose from "../images/red-rose.jpg";
+// import rose from "../images/red-rose.jpg";
 
-export default function Picture() {
-  return <img src={rose} alt="red rose" />;
-}
+// export default function Picture({ currentImg }) {
+//   return <img src={currentImg.src} alt={currentImg.alt} />;
+// }

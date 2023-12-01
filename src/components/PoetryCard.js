@@ -1,36 +1,29 @@
 import Poetry from "./Poetry";
-import Picture from "./Picture";
+// import Picture from "./Picture";
 
-// const poetryArray = [
-//   "Roses are Red",
-//   "Violets are Blue",
-//   "Kayla smells like poo",
-//   "Huddy does too",
-// ];
+export default function PoetryCard({ array }) {
+  let poetryLine = array[0].message;
 
-// const imgArray = [
-//   {
-//     src: "../images/red-rose.jpg",
-//     alt: "Red Rose",
-//   },
-//   {
-//     src: "../images/blue-violet.jpg",
-//     alt: "Blue Violet",
-//   },
-// ];
+  // let currentImg = {
+  //   src: "rose",
+  //   alt: "Red Rose",
+  // };
 
-// let poetryLine = "";
+  function handleClick() {
+    for (let i = 0; i < array.length; i++) {
+      poetryLine = array[i].message;
+      poetryLine = console.log(poetryLine);
+    }
+  }
 
-// let currentImg = {};
-
-// const interval = setInterval((poetryArray, imgObject) => {}, interval);
-
-export default function PoetryCard() {
   return (
     <>
       <div className="poetryCard">
-        <Poetry />
-        <Picture />
+        <button onClick={handleClick} className="poem-button">
+          Start Poem
+        </button>
+        <Poetry poetryLine={poetryLine} />
+        {/* <Picture currentImg={currentImg} /> */}
       </div>
     </>
   );
