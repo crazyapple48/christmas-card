@@ -4,7 +4,10 @@
   "icons": [
     {
       "src": "red-rose.jpg",
-      "sizes": "120x120",
+      "type": "image/jpg"
+    },
+    {
+      "src": "blue-violet.jpg",
       "type": "image/jpg"
     }
   ],
