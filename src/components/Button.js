@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 function Button() {
   return (
     <>
-      <header>
+      <header className="header">
         <button>
           <Link to={"poetrycard"}>Button</Link>
         </button>

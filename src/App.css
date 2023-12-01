@@ -3,5 +3,30 @@ html {
 }
 
 img {
-  width: 120px;
+  width: 100%;
+  grid-column: 2 / span 1;
+  justify-self: center;
+  border-radius: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  height: 150px;
+}
+
+.poetryCard {
+  display: grid;
+  grid-template-columns: 1fr 40% 1fr;
+  align-items: center;
+}
+
+.poetry {
+  font-size: 5vw;
+  font-style: italic;
+  font-family: cursive;
+  grid-column: 2 / span 1;
+  justify-self: center;
 }

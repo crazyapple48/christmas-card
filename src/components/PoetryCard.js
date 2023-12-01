@@ -4,7 +4,7 @@ import Picture from "./Picture";
 export default function PoetryCard() {
   return (
     <>
-      <div>
+      <div className="poetryCard">
         <Poetry />
         <Picture />
       </div>

@@ -1,3 +1,3 @@
 export default function Poetry() {
-  return <p>Roses are Red</p>;
+  return <p className="poetry">Roses are Red</p>;
 }
