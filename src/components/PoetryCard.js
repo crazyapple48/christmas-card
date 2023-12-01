@@ -11,8 +11,14 @@ export default function PoetryCard({ array }) {
 
   function handleClick() {
     for (let i = 0; i < array.length; i++) {
-      poetryLine = array[i].message;
-      poetryLine = console.log(poetryLine);
+      delay(i);
+    }
+
+    function delay(i) {
+      setTimeout(() => {
+        poetryLine = array[i].message;
+        console.log(poetryLine);
+      }, 2000 * i);
     }
   }
 
