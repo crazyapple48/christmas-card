@@ -5,11 +5,9 @@ function Button() {
   return (
     <>
       <header className="header">
-        <div className="game-button">
-          <Link to={"poetrycard"} className="button-link">
-            Button
-          </Link>
-        </div>
+        <Link to={"poetrycard"} className="button-link">
+          <div className="game-button">Button</div>
+        </Link>
       </header>
       <Outlet />
     </>
