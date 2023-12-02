@@ -1,16 +1,10 @@
 import { useState } from "react";
 import Poetry from "./Poetry";
-// import Picture from "./Picture";
+import Picture from "./Picture";
 
 export default function PoetryCard({ array }) {
-  const [state, setState] = useState(true);
-
-  let poetryLine = "";
-
-  // let currentImg = {
-  //   src: "rose",
-  //   alt: "Red Rose",
-  // };
+  const [poetryLine, setPoetryLine] = useState("");
+  const [imgAlt, setImgAlt] = useState("");
 
   function handleClick() {
     for (let i = 0; i < array.length; i++) {
@@ -19,13 +13,9 @@ export default function PoetryCard({ array }) {
 
     function delay(i) {
       setTimeout(() => {
-        poetryLine = array[i].message;
-        if (state === true) {
-          setState(false);
-        }
-        setState(true);
-        console.log(poetryLine);
-      }, 2000 * i);
+        setPoetryLine(array[i].message);
+        setImgAlt(array[i].alt);
+      }, 3000 * i);
     }
   }
 
@@ -36,7 +26,7 @@ export default function PoetryCard({ array }) {
           Start Poem
         </button>
         <Poetry poetryLine={poetryLine} />
-        {/* <Picture currentImg={currentImg} /> */}
+        <Picture currentImg={imgAlt} />
       </div>
     </>
   );
