@@ -1,8 +1,11 @@
+import { useState } from "react";
 import Poetry from "./Poetry";
 // import Picture from "./Picture";
 
 export default function PoetryCard({ array }) {
-  let poetryLine = array[0].message;
+  const [state, setState] = useState(true);
+
+  let poetryLine = "";
 
   // let currentImg = {
   //   src: "rose",
@@ -17,6 +20,10 @@ export default function PoetryCard({ array }) {
     function delay(i) {
       setTimeout(() => {
         poetryLine = array[i].message;
+        if (state === true) {
+          setState(false);
+        }
+        setState(true);
         console.log(poetryLine);
       }, 2000 * i);
     }
