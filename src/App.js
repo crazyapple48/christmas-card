@@ -8,6 +8,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import PoetryCard from "./components/PoetryCard";
+import ChristmasCard from "./components/ChristmasCard";
 
 const cardArray = [
   {
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Button />}>
       <Route path="poetrycard" element={<PoetryCard array={cardArray} />} />
+      <Route path="/christmascard" element={<ChristmasCard />} />
     </Route>
   )
 );
