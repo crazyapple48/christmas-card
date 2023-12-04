@@ -8,27 +8,22 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import PoetryCard from "./components/PoetryCard";
-import rose from "./images/red-rose.jpg";
 
 const cardArray = [
   {
     message: "Roses are Red",
-    src: rose,
     alt: "Red Rose",
   },
   {
     message: "Violets are Blue",
-    src: "../images/blue-violet.jpg",
     alt: "Blue Violet",
   },
   {
     message: `Y'all are monsters`,
-    src: null,
     alt: "Picture of monsters",
   },
   {
     message: "Huddy, you are too",
-    src: null,
     alt: "Picture of Huddy",
   },
 ];
