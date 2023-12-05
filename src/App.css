@@ -2,6 +2,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("./images/christmas-tree_background.jpg");
+}
+
 img {
   width: 100%;
   grid-column: 2 / span 1;
@@ -39,7 +43,7 @@ img {
   height: 6vw;
   border: 2px solid blue;
   border-radius: 20px;
-  background-color: rgba(0, 100, 200, 0.7);
+  background-color: rgba(0, 100, 200, 0.9);
   box-shadow: 0.5vw 0.5vw rgba(0, 75, 100, 0.6);
 }
 
@@ -71,4 +75,22 @@ img {
   );
   color: white;
   border-radius: 20px;
+}
+
+.christmas-container {
+  display: grid;
+  grid-template-columns: 1fr 50% 1fr;
+}
+
+.christmas-declaration {
+  grid-column: 2 / span 1;
+  justify-self: center;
+  font-family: cursive;
+  font-size: 5vw;
+}
+
+#christmas-card {
+  grid-column: 2 / span 1;
+  justify-self: center;
+  width: 50%;
 }
