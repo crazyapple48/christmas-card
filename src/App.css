@@ -3,7 +3,17 @@ html {
 }
 
 body {
+  padding: 0;
+  margin: 0;
   background-image: url("./images/christmas-tree_background.jpg");
+}
+
+.background {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 100, 0.3);
 }
 
 img {
