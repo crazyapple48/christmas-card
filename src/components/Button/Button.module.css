@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  height: 150px;
+}
+
+.gameButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 6vw;
+  border: 2px solid blue;
+  border-radius: 20px;
+  background-color: rgba(0, 100, 200, 0.9);
+  box-shadow: 0.5vw 0.5vw rgba(0, 75, 100, 0.6);
+}
+
+.gameButton:hover {
+  color: green;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.gameButton:active {
+  box-shadow: none;
+  background-color: rgba(0, 255, 100, 0.7);
+}
+
+.buttonLink {
+  color: rgba(200, 50, 50, 0.8);
+  text-decoration: none;
+  font-size: 2vw;
+}

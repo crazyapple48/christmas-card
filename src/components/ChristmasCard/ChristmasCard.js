@@ -1,3 +1,4 @@
+import styles from "./ChristmasCard.module.css";
 import React, { useEffect, useState } from "react";
 import christmasCard from "../../images/ChristmasCard.jpg";
 

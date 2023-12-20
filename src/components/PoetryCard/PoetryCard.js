@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Poetry from "../Poetry/Poetry";
 import Picture from "../Picture/Picture";
+import styles from "./PoetryCard.module.css";
 
 export default function PoetryCard({ array }) {
   const [poetryLine, setPoetryLine] = useState("");

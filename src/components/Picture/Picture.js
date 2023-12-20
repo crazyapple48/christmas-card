@@ -1,3 +1,4 @@
+import styles from "./Picture.module.css";
 import rose from "../../images/red-rose.jpg";
 import violet from "../../images/blue-violet.jpg";
 import monsters from "../../images/Monsters.jpg";
