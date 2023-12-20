@@ -1,8 +1,6 @@
 .poetry {
-  font-size: 5vw;
+  font-size: 3rem;
   font-style: italic;
   color: white;
   font-family: cursive;
-  grid-column: 2 / span 1;
-  justify-self: center;
 }

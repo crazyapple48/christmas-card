@@ -1,11 +1,12 @@
 .poetryCard {
-  display: grid;
-  grid-template-columns: 1fr 40% 1fr;
-  align-items: center;
+  display: block;
+  text-align: center;
 }
 
 .poemButton {
-  grid-column: 2 / span 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   justify-self: center;
   margin-top: 20px;
   background: rgb(241, 0, 0);
