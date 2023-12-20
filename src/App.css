@@ -21,13 +21,6 @@ html body {
   background-color: rgba(0, 0, 100, 0.3);
 }
 
-img {
-  width: 100%;
-  grid-column: 2 / span 1;
-  justify-self: center;
-  border-radius: 50px;
-}
-
 .poetryCard {
   display: grid;
   grid-template-columns: 1fr 40% 1fr;

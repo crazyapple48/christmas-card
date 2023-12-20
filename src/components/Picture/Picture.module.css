@@ -1,0 +1,27 @@
+.redRose {
+  width: 100%;
+  grid-column: 2 / span 1;
+  justify-self: center;
+  border-radius: 50px;
+}
+
+.blueViolet {
+  width: 100%;
+  grid-column: 2 / span 1;
+  justify-self: center;
+  border-radius: 50px;
+}
+
+.monsters {
+  width: 100%;
+  grid-column: 2 / span 1;
+  justify-self: center;
+  border-radius: 50px;
+}
+
+.huddy {
+  width: 100%;
+  grid-column: 2 / span 1;
+  justify-self: center;
+  border-radius: 50px;
+}

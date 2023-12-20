@@ -10,3 +10,10 @@
   font-size: 5vw;
   color: red;
 }
+
+.christmasImg {
+  width: 100%;
+  grid-column: 2 / span 1;
+  justify-self: center;
+  border-radius: 50px;
+}

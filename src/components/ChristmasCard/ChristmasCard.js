@@ -25,7 +25,12 @@ const ChristmasCard = () => {
         <h1 className={styles.christmasDeclaration} style={{ color: color }}>
           Merry Christmas!!!
         </h1>
-        <img src={christmasCard} alt="Us at Enchant" id="christmas-card" />
+        <img
+          src={christmasCard}
+          alt="Us at Enchant"
+          id="christmas-card"
+          className={styles.christmasImg}
+        />
       </div>
     </>
   );
