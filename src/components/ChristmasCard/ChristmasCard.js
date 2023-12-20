@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import christmasCard from "../images/ChristmasCard.jpg";
+import christmasCard from "../../images/ChristmasCard.jpg";
 
 const ChristmasCard = () => {
   const [color, setColor] = useState("red");

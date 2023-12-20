@@ -1,5 +1,5 @@
 import "./App.css";
-import Button from "./components/Button";
+import Button from "./components/Button/Button";
 
 import {
   Route,
@@ -7,8 +7,8 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import PoetryCard from "./components/PoetryCard";
-import ChristmasCard from "./components/ChristmasCard";
+import PoetryCard from "./components/PoetryCard/PoetryCard";
+import ChristmasCard from "./components/ChristmasCard/ChristmasCard";
 
 const cardArray = [
   {

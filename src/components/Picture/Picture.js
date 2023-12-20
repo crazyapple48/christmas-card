@@ -1,7 +1,7 @@
-import rose from "../images/red-rose.jpg";
-import violet from "../images/blue-violet.jpg";
-import monsters from "../images/Monsters.jpg";
-import huddy from "../images/Huddy_Monster.jpg";
+import rose from "../../images/red-rose.jpg";
+import violet from "../../images/blue-violet.jpg";
+import monsters from "../../images/Monsters.jpg";
+import huddy from "../../images/Huddy_Monster.jpg";
 
 export default function Picture({ currentImg }) {
   if (currentImg === "Red Rose") {
