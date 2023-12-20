@@ -1,27 +1,25 @@
 .redRose {
-  width: 100%;
-  grid-column: 2 / span 1;
-  justify-self: center;
+  width: 50%;
+  max-width: 330px;
+  max-height: 500px;
   border-radius: 50px;
 }
 
 .blueViolet {
-  width: 100%;
-  grid-column: 2 / span 1;
-  justify-self: center;
+  width: 70%;
+  max-width: 462px;
   border-radius: 50px;
 }
 
 .monsters {
-  width: 100%;
-  grid-column: 2 / span 1;
-  justify-self: center;
+  width: 50%;
+  max-width: 330px;
   border-radius: 50px;
 }
 
 .huddy {
-  width: 100%;
-  grid-column: 2 / span 1;
-  justify-self: center;
+  width: 50%;
+  height: auto;
+  max-width: 330px;
   border-radius: 50px;
 }
