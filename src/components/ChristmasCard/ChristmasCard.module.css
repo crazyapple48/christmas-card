@@ -1,18 +1,17 @@
 .christmasContainer {
-  display: grid;
-  grid-template-columns: 1fr 50% 1fr;
+  display: block;
+  text-align: center;
+  text-wrap: balance;
 }
 
 .christmasDeclaration {
-  grid-column: 2 / span 1;
-  justify-self: center;
   font-family: cursive;
   font-size: 3rem;
   color: red;
 }
 
 .christmasImg {
-  width: 100%;
+  width: 75%;
   grid-column: 2 / span 1;
   justify-self: center;
   border-radius: 50px;
