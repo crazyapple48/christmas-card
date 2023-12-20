@@ -27,15 +27,6 @@ html body {
   align-items: center;
 }
 
-.poetry {
-  font-size: 5vw;
-  font-style: italic;
-  color: white;
-  font-family: cursive;
-  grid-column: 2 / span 1;
-  justify-self: center;
-}
-
 .poem-button {
   grid-column: 2 / span 1;
   justify-self: center;
