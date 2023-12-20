@@ -1,0 +1,12 @@
+.christmasContainer {
+  display: grid;
+  grid-template-columns: 1fr 50% 1fr;
+}
+
+.christmasDeclaration {
+  grid-column: 2 / span 1;
+  justify-self: center;
+  font-family: cursive;
+  font-size: 5vw;
+  color: red;
+}

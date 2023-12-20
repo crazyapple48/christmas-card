@@ -20,10 +20,10 @@ const ChristmasCard = () => {
 
   return (
     <>
-      <div className="christmas-container">
+      <div className={styles.christmasContainer}>
         '
-        <h1 className="christmas-declaration" style={{ color: color }}>
-          Merry Chrismas!!!
+        <h1 className={styles.christmasDeclaration} style={{ color: color }}>
+          Merry Christmas!!!
         </h1>
         <img src={christmasCard} alt="Us at Enchant" id="christmas-card" />
       </div>

@@ -57,19 +57,6 @@ img {
   border-radius: 20px;
 }
 
-.christmas-container {
-  display: grid;
-  grid-template-columns: 1fr 50% 1fr;
-}
-
-.christmas-declaration {
-  grid-column: 2 / span 1;
-  justify-self: center;
-  font-family: cursive;
-  font-size: 5vw;
-  color: red;
-}
-
 #christmas-card {
   grid-column: 2 / span 1;
   justify-self: center;
