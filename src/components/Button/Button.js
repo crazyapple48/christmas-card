@@ -18,7 +18,7 @@ function Button() {
             onClick={handleClick}
             className={styles.buttonLink}
           >
-            <div className="game-button">Poem</div>
+            <h2 className={styles.gameButton}>Poem</h2>
           </Link>
         ) : (
           <Link
@@ -26,7 +26,7 @@ function Button() {
             onClick={handleClick}
             className={styles.buttonLink}
           >
-            <div className={styles.gameButton}>Christmas Card</div>
+            <h2 className={styles.gameButton}>Christmas Card</h2>
           </Link>
         )}
       </header>

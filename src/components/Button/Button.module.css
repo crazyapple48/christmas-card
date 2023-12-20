@@ -1,26 +1,29 @@
 .header {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  align-items: center;
-  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .gameButton {
+  text-wrap: nowrap;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20vw;
-  height: 6vw;
+  font-size: 3rem;
+  width: auto;
+  min-width: 250px;
+  height: 5rem;
   border: 2px solid blue;
   border-radius: 20px;
-  background-color: rgba(0, 100, 200, 0.9);
+  background-color: rgb(0, 100, 200);
   box-shadow: 0.5vw 0.5vw rgba(0, 75, 100, 0.6);
 }
 
 .gameButton:hover {
   color: green;
   background-color: rgba(255, 0, 0, 0.7);
+  border: 2px solid red;
 }
 
 .gameButton:active {
