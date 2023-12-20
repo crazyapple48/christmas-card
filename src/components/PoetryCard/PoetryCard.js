@@ -1,6 +1,7 @@
 import { useState } from "react";
-import Poetry from "./Poetry";
-import Picture from "./Picture";
+import Poetry from "../Poetry/Poetry";
+import Picture from "../Picture/Picture";
+import styles from "./PoetryCard.module.css";
 
 export default function PoetryCard({ array }) {
   const [poetryLine, setPoetryLine] = useState("");
@@ -21,8 +22,8 @@ export default function PoetryCard({ array }) {
 
   return (
     <>
-      <div className="poetryCard">
-        <button onClick={handleClick} className="poem-button">
+      <div className={styles.poetryCard}>
+        <button onClick={handleClick} className={styles.poemButton}>
           Start Poem
         </button>
         <Poetry poetryLine={poetryLine} />

@@ -1,0 +1,21 @@
+.poetryCard {
+  display: block;
+  text-align: center;
+}
+
+.poemButton {
+  display: block;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
+  margin-top: 20px;
+  background: rgb(241, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(241, 0, 0, 1) 0%,
+    rgba(0, 9, 255, 1) 100%
+  );
+  color: white;
+  border-radius: 20px;
+}

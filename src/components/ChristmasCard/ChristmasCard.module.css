@@ -1,0 +1,17 @@
+.christmasContainer {
+  display: block;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.christmasDeclaration {
+  font-family: cursive;
+  font-size: 3rem;
+  color: red;
+}
+
+.christmasImg {
+  width: 75%;
+  max-width: 400px;
+  border-radius: 50px;
+}

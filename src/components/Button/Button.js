@@ -1,3 +1,4 @@
+import styles from "./Button.module.css";
 import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
 
@@ -10,18 +11,22 @@ function Button() {
 
   return (
     <>
-      <header className="header">
+      <header className={styles.header}>
         {!card ? (
-          <Link to={"poetrycard"} onClick={handleClick} className="button-link">
-            <div className="game-button">Poem</div>
+          <Link
+            to={"poetrycard"}
+            onClick={handleClick}
+            className={styles.buttonLink}
+          >
+            <h2 className={styles.gameButton}>Poem</h2>
           </Link>
         ) : (
           <Link
             to={"christmascard"}
             onClick={handleClick}
-            className="button-link"
+            className={styles.buttonLink}
           >
-            <div className="game-button">Christmas Card</div>
+            <h2 className={styles.gameButton}>Christmas Card</h2>
           </Link>
         )}
       </header>

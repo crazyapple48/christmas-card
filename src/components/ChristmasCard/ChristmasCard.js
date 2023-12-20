@@ -1,5 +1,6 @@
+import styles from "./ChristmasCard.module.css";
 import React, { useEffect, useState } from "react";
-import christmasCard from "../images/ChristmasCard.jpg";
+import christmasCard from "../../images/ChristmasCard.jpg";
 
 const ChristmasCard = () => {
   const [color, setColor] = useState("red");
@@ -19,12 +20,17 @@ const ChristmasCard = () => {
 
   return (
     <>
-      <div className="christmas-container">
+      <div className={styles.christmasContainer}>
         '
-        <h1 className="christmas-declaration" style={{ color: color }}>
-          Merry Chrismas!!!
+        <h1 className={styles.christmasDeclaration} style={{ color: color }}>
+          Merry Christmas!!!
         </h1>
-        <img src={christmasCard} alt="Us at Enchant" id="christmas-card" />
+        <img
+          src={christmasCard}
+          alt="Us at Enchant"
+          id="christmas-card"
+          className={styles.christmasImg}
+        />
       </div>
     </>
   );
