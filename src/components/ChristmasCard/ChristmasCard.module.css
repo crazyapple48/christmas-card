@@ -12,7 +12,6 @@
 
 .christmasImg {
   width: 75%;
-  grid-column: 2 / span 1;
-  justify-self: center;
+  max-width: 400px;
   border-radius: 50px;
 }
