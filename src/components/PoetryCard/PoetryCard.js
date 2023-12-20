@@ -22,8 +22,8 @@ export default function PoetryCard({ array }) {
 
   return (
     <>
-      <div className="poetryCard">
-        <button onClick={handleClick} className="poem-button">
+      <div className={styles.poetryCard}>
+        <button onClick={handleClick} className={styles.poemButton}>
           Start Poem
         </button>
         <Poetry poetryLine={poetryLine} />
